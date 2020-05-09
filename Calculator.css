@@ -1,0 +1,63 @@
+body{
+    animation-name:anim; /*animation name*/
+    animation-duration:10s; /*time taken by animation to be executed*/
+    animation-iteration-count:infinite; /*total loop count of the animation*/
+}
+@keyframes anim{ /*animation main-frame*/
+    0%{background-color:green;}
+    20%{background-color:lightBlue;}
+    40%{background-color:#ee7752;}
+    60%{background-color:silver;}
+    80%{background-color:lightGreen;}
+    100%{background-color:green;}
+}
+.cal{ /*size, position, border-format of the division*/
+    position:relative;
+    width:400px;
+    border:10px solid grey;
+    border-radius:0px 30px 0px 30px;
+    padding:20px 20px 50px 20px;
+}
+
+input{ /*size, ...., etc of the buttons*/
+    background-color:gray;
+    color:white;
+    width:80px;
+    font-size:20px;
+    font-weight:900;
+    border-radius:0px 10px 0px 10px;
+    margin-left:13px;
+    margin-top:10px;
+    text-shadow:0px 0px 10px black, 0px 0px 10px red;
+}
+input.display{ /*size, ....., etc of the display box*/
+    position:relative;
+    display:block;
+    width:350px;
+    margin:5px auto;
+    font-size:20px;
+    padding:10px;
+    box-shadow:4px 0px 12px green;
+    border-radius:0px 10px 0px 10px;
+}
+input.clear{ 
+    background-color:red;
+}
+input.equal{
+    background-color:black;
+}
+p{
+    text-color:gray;
+    text-decoration:underline;
+}
+p.topic{
+    font-weight:bold;
+    text-shadow:0px 0px 10px black, 0px 0px 10px grey;
+    text-align:center;
+    text-decoration:none;
+}
+div{
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow:0px 0px 20px black, 0px 0px 20px;
+}
